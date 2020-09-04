@@ -1,3 +1,5 @@
+import getPokemon from "./pokemon"
+
 const app = {
     pages: [],
     show: new Event('show'),
@@ -44,7 +46,7 @@ const app = {
     },
     getContent: function(){
         var mainContent = document.getElementById('main');
-        fragmentId = location.hash.substr(1);
+        let fragmentId = location.hash.substr(1);
         app.fetchFile(fragmentId, function(content){
             mainContent.innerHTML = content;
         });

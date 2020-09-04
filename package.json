@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-explorer-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devchep/pokemon-explorer-spa.git"
+  },
+  "author": "Andrei Chepushtanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devchep/pokemon-explorer-spa/issues"
+  },
+  "homepage": "https://github.com/devchep/pokemon-explorer-spa#readme",
+  "dependencies": {
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}

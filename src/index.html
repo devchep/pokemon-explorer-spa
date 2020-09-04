@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPA Application</title>
+    <link rel="stylesheet" href="css/spa.css">
+</head>
+<body>
+    <header>
+        <div class="dynamic-header active" id="about">
+            <a href="#pokemon" class="nav-link">
+                <img src="img/jiggly.png" data-target="pokemon" class="header-img" alt="">
+                <div class="nav-link-text" data-target="pokemon">About Jigglypuff</div>
+            </a>
+            <div class="header-active">About Me</div>
+            <a href="#about" class="nav-link">
+                <img src="img/whospoke.png" data-target="about" class="header-img" alt="">
+                <div class="nav-link-text" data-target="about">About Me</div>
+            </a>
+        </div>
+        <div class="dynamic-header" id="pokemon">
+            <a href="#about" class="nav-link">
+                <img src="img/whospoke.png" data-target="about" class="header-img" alt="">
+                <div class="nav-link-text" data-target="about">About Me</div>
+            </a>
+            <div class="header-active">About Jigglypuff</div>
+            <a href="#pokemon" class="nav-link">
+                <img src="img/jiggly.png" data-target="pokemon" class="header-img" alt="">
+                <div class="nav-link-text" data-target="pokemon">About Jigglypuff</div>
+            </a>
+        </div>
+    </header>
+    <main id='main'></main>
+    <script src="../dist/bundle.js" charset="utf-8"></script>
+</body>
+</html>

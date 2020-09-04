@@ -12,7 +12,7 @@ function normalizeName(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-async function getPokemon(pokemonName) {
+export default async function getPokemon(pokemonName) {
     let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
     if (!response.ok) {
